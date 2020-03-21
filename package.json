@@ -1,18 +1,21 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "author": "Sunil Karki <karkisunil1200@gmail.com>",
+  "license": "MIT",
   "engines": {
-    "node": "8.1.1",
+    "node": "12.6.0",
     "yarn": "1.21.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
